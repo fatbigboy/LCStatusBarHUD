@@ -15,6 +15,11 @@
 [LCStatusBarHUD showLoading:@"正在加载"];
 ```
 
+## 显示普通信息
+```objc
+[LCStatusBarHUD showMessage:@"只是普通文字,没有图片"];
+```
+
 ## 隐藏
 ```objc
 [LCStatusBarHUD hide];
